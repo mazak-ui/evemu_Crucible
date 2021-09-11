@@ -1,3 +1,5 @@
+[![Publish Docker](https://github.com/mazak-ui/evemu_Crucible/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/mazak-ui/evemu_Crucible/actions/workflows/main.yml)
+
 # [EVEmu](https://evemu.dev) - An EVE Online Emulator
 
 ## Introduction
