@@ -1,0 +1,13 @@
+name: Publish Docker
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: EVEMU
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: mazakui/evemu
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
